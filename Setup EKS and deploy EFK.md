@@ -3,6 +3,7 @@
 
 In the terraform code i am using custom module to deploy the EKS cluster in the private subnet of the aws VPC and with the help of bastion host I will access the EKS cluster. 
 
+
 ![Screenshot from 2025-06-10 11-50-55](https://github.com/user-attachments/assets/f07229fc-cdcc-465e-9e7f-6a25ff0c0068)
 
 
