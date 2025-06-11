@@ -1,5 +1,5 @@
 
-#### Terroform code to deploy the EKS cluster
+## Terroform code to deploy the EKS cluster
 
 In the terraform code i am using custom module to deploy the EKS cluster in the private subnet of the aws VPC and with the help of bastion host I will access the EKS cluster. 
 
