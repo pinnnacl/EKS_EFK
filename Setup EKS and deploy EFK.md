@@ -6,6 +6,7 @@ In the terraform code i am using custom module to deploy the EKS cluster in the 
 ![Screenshot from 2025-06-10 11-50-55](https://github.com/user-attachments/assets/f07229fc-cdcc-465e-9e7f-6a25ff0c0068)
 
 
+
 After validating the code, I made use of "**terraform plan**" command for getting more insights on how the terraform code will effect the existing infrastructure.
 
 Using "**terraofrm apply**" command I deployed the EKS inftrastructure on the aws cloud.
@@ -36,8 +37,8 @@ kubectl get secrets --namespace=logging elasticsearch-master-credentials -ojsonp
 kubectl get secrets --namespace=logging elasticsearch-master-credentials -ojsonpath='{.data.password}' | base64 -d
 ```
 
+![Screenshot from 2025-06-10 23-22-55](https://github.com/user-attachments/assets/13ea66f9-d1da-4225-8a76-b232b765baa9)
 
-![[Screenshot from 2025-06-10 23-22-55.png]]
 
 
 Deploy Fluentbit using below Helm repository
